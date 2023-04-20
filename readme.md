@@ -1,6 +1,6 @@
 # KSB
 
-A character recognition project based on python
+A character recognition project based on python and PyTorch
 
 ## 主要技术栈
 |  项目   | 描述  |
