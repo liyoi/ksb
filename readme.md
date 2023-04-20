@@ -35,3 +35,12 @@ A character recognition project based on python and PyTorch
 预测识别字符
 在pre.py文件中定义了两个函数tes_model和test_AZ_model,你可以直接使用他们来预测数据
 > python pre.py
+
+
+原始图片
+
+![预测结果](img/W_1.jpg "预测结果")  ![预测结果](img/9_1.jpg "预测结果")  ![预测结果](img/D_1.jpg "预测结果")
+
+预测结果
+
+![预测结果](img/img.png "预测结果")
