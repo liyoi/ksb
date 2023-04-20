@@ -36,7 +36,6 @@ def test_AZ_model(urls=None):
         for url in urls:
             view = cv2.imread(url, cv2.IMREAD_GRAYSCALE)
             imgs.append(view)
-            cv2.imshow(url, view)
     elif urls is not None:
         view = cv2.imread(urls, cv2.IMREAD_GRAYSCALE)
         imgs.append(view)
