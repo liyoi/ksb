@@ -39,7 +39,7 @@ A character recognition project based on python and PyTorch
 
 原始图片
 
-![预测结果](img/W_1.jpg "预测结果")  ![预测结果](img/9_1.jpg "预测结果")  ![预测结果](img/D_1.jpg "预测结果")
+![W](img/W_1.jpg "W")  ![9](img/9_1.jpg "9")  ![D](img/D_1.jpg "D")
 
 预测结果
 
