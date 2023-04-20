@@ -22,7 +22,6 @@ def test_model(urls=None):
         return
     imgs_tensor = model.pre_deal_img(imgs, (28, 28))
     print(imgs_tensor.size())
-    print(imgs_tensor)
     imgs_tensor = imgs_tensor.float()
     test_net.to(model.device)
     predict = model.predict(test_net, imgs_tensor, model.device)
@@ -37,6 +36,7 @@ def test_AZ_model(urls=None):
         for url in urls:
             view = cv2.imread(url, cv2.IMREAD_GRAYSCALE)
             imgs.append(view)
+            cv2.imshow(url, view)
     elif urls is not None:
         view = cv2.imread(urls, cv2.IMREAD_GRAYSCALE)
         imgs.append(view)
@@ -45,7 +45,6 @@ def test_AZ_model(urls=None):
         return
     imgs_tensor = model.pre_deal_img(imgs, (28, 28))
     print(imgs_tensor.size())
-    print(imgs_tensor)
     imgs_tensor = imgs_tensor.float()
     test_net.to(model.device)
     predict = model.predict(test_net, imgs_tensor, model.device)
