@@ -10,7 +10,7 @@ import model
 
 # 训练模块
 
-device = torch.device("cuda")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 torch.set_default_device(device=device)
 

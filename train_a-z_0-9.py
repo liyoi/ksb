@@ -6,8 +6,8 @@ from torch import Generator
 from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
-from dataset.dataset import CHDataset
 import model
+from dataset.dataset import CHDataset
 
 # 训练模块
 

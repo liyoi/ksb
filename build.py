@@ -13,8 +13,10 @@ def unzip_file(zip_src, dst_dir):
         for file in fz.namelist():
             fz.extract(file, dst_dir)
         print('unzip success')
+        print("build success")
     else:
         print('This is not zip')
 
 
 unzip_file(zip_path, save_path)
+

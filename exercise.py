@@ -40,5 +40,7 @@ import cv2
 #             img2[i, j, 1] = 0
 #             img2[i, j, 0] = 0
 # cv2.imshow("img2", cv2.resize(img2, (400, 400)))
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+img = cv2.imread('G:\Program Files\Image\\bilibili.png', cv2.IMREAD_GRAYSCALE)
+cv2.imshow("G:\Program Files\Image\\bilibili.png",img)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
